@@ -1,0 +1,20 @@
+[
+    {
+        "age": 0, 
+        "id": "wine-red", 
+        "imageUrl": "../img/wines/080703120402-large.jpg", 
+		"serveImageUrl": "../img/wines/iStock_000003532762XSmall.jpg",
+        "name": "Red Wine", 
+        "snippet": "Red wine is a type of wine made from dark-coloured grape varieties. The actual colour of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older reds.",
+		"HowToServe": "Serve at 60° to 65° F-cooler than most room temperatures and warmer than ideal cellaring temperatures-to make the tannins in powerful Cabernet or Syrah feel more supple and de-emphasize bitter components."
+    },
+	{
+        "age": 1, 
+        "id": "wine-white", 
+        "imageUrl": "../img/wines/WhiteWine.jpg", 
+		"serveImageUrl": "../img/wines/Preston-White-Wine.png",
+        "name": "White Wine", 
+        "snippet": "White wine is a wine whose color can be straw-yellow, yellow-green, and yellow-gold coloured. White wine's color can be derived from an assortment of grape varieties.",
+		"HowToServe": "Serve at 40° to 50° F to preserve their freshness and fruitiness. Think crisp Pinot Grigio and Champagne. For sparklers, chilling keeps bubbles fine rather than frothy. This is also a good range for white dessert wines; sweetness is accentuated at warmer temperatures, so chilling them preserves their balance without quashing their vibrant aromas."
+    }
+]

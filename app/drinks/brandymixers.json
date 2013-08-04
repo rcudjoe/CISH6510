@@ -1,0 +1,28 @@
+[
+    {
+        "age": 0, 
+        "id": "brandy-brandy-blazer", 
+        "imageUrl": "../img/makingdrinks/Brandy-Cocktail-Drink.jpeg", 
+		"name": "Brandy Blazer", 
+        "snippet": "A warm after-dinner tipple, this is ideally served with fresh vanilla ice cream or caramelized oranges. Pare the rind from the orange and lemon, removing and discarding as much of the white pith as possible. Put the cognac, sugar cube, lemon and orange rind in a small pan. Heat gently, then remove from the heat, light a match and pass the flame close to the surface of the liquid. The alcohol will burn with a low, blue flame for about a minute. Blow out the flame. Add the Kahlua to the pan, and strain into a heat-resistant glass.",
+		"measurement": [" 1/2 orange.", "1 lemon.", "2 measures/3 tbsp cognac.", "1/2 measure/2 tsp Kahlua."]
+		
+    }, 
+    {
+        "age": 1, 
+        "id": "brandy-glory-fizz", 
+        "imageUrl": "../img/makingdrinks/Black_cocktail_430x297.jpg", 
+		"name": "Morning Glory Fizz", 
+        "snippet": "A good early-morning drink, this should be consumed as soon s it is made, before it loses its bubbles. Shake all but the last ingredient well with ice, and strain into a chilled highball glass. Finish with the soda water. Garnish the drink with a twist of lemon rind.",
+		"measurement": ["2/3 measure/1 tbsp cognac.", "1/4 measure/1 tsp orange curacao", "1/4 measure/1 tsp lemon juice", "Dash anisette.", "2 dashes Angostura bitters."," 4 meassures/6 tbsp soda water."]
+		
+    }, 
+    {
+        "age": 2, 
+        "id": "brandy-vanderbilt", 
+        "imageUrl": "../img/makingdrinks/vanderbilt.jpg", 
+		"name": "Vanderbilt", 
+        "snippet": "This cocktail was created in 1912 in honor of Cornelius Vanderbilt, member of one of America's great plutocratic families. The flavor is certainly rich enough to do justice to the name.",
+		"measurement": ["1 1/2 measures/6 tsp cognac.", "1/2 measure/2 tsp cherry brandy.", "2 dashes Angostura bitters.", "1/4 measure/1 tsp sugar syrup."]
+    }
+]

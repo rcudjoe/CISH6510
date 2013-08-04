@@ -1,0 +1,93 @@
+[
+    {
+        "age": 0, 
+        "id": "spirits-gin", 
+        "imageUrl": "../img/spirits/blue-gin.jpg", 
+		"serveImageUrl": "../img/spirits/neatgin.jpg",
+        "name": "Gin", 
+        "snippet": "Gin is a spirit which derives its predominant flavor from juniper berries. From its earliest beginnings in the Middle Ages, gin has evolved over the course of a millennium to become one of the six essential sprits.",
+		"HowToServe": "The age-old mixer for gin is, of course, Schwepps tonic, the production of which is almost excusively sustained by gine drinkers. \r A gin and tonic is usually offered as a long drink with a slice of lemon and plenty of ice, but equal measures are a more sensitive way of treating the gin. Gin rubs along with any old mixer though: orange juice, bitter lemon, ginger beer, whatever. (It isn't very nice with cola perhaps, but then few things are.) Specialty gins can be served neat. Chill the bottle in the freezer, and serve the measure in small glasses. A taller, narrow-sided, steammed glass - rather like a short champagne flute - is traditional in the Netherlands."
+    }, 
+    {
+        "age": 1, 
+        "id": "spirits-vodka", 
+        "imageUrl": "../img/spirits/vodka_logo.jpg", 
+		"serveImageUrl": "../img/spirits/vodka-shot.jpg",
+        "name": "Vodka", 
+        "snippet": "In one sense, vodka is the closest thing to perfection ever conceived in the history of spirits. The word vodka is a Russian endearment meaning \"little water\".",
+		"HowToServe": "When serving vodka, everything should be almost painfully cold to touch. The bottle should be kept in the freezer and the glasses should be iced."
+    }, 
+    {
+        "age": 2, 
+        "id": "spirits-rum", 
+        "imageUrl": "../img/spirits/rum.jpg", 
+		"serveImageUrl": "../img/spirits/rum_serve.jpg",
+        "name": "Rum", 
+        "snippet": "Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation.",
+		"HowToServe": "Of the commercial products, white rum mixes famously well with cola, but also with orange juice or more tropical flavors such as pineapple or mango. Dark rum has traditionally been seen as compatible with blackcurrant or perppermint cordials, as well as the ubiquitous cola."
+    }, 
+    {
+        "age": 3, 
+        "id": "spirits-whisky", 
+        "imageUrl": "../img/spirits/whisky.jpg", 
+		"serveImageUrl": "../img/spirits/whiskey-2.jpg",
+        "name": "Whisky", 
+        "snippet": "Whisky or whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Different grains are used for different varieties, including barley, malted barley, rye, malted rye, wheat, and corn.",
+		"HowToServe": "The finest whiskies are not necessarily drunk neat. It is widely believed that taming some of the spirit's fire helps to bring up the array of complicated sents and flavors. A dose of water should be added, ideally the same spring water that goes into whisky itself, otherwise any pure, non-chlorinated water. Half-and-half are the preferred proportions in the Scotland and Ireland, while in Tennessee and Kentucky the add a little less that half."
+    }, 
+    {
+        "age": 4, 
+        "id": "spirits-tequila", 
+        "imageUrl": "../img/spirits/tequila.jpg", 
+		"serveImageUrl": "../img/spirits/tequila_serve.jpg",
+        "name": "Tequila", 
+        "snippet": "Tequila is a distilled beverage made from the blue agave plant, primarily in the area surrounding the city of Tequila, northwest of Guadalajara, and in the highlands of the Mexican state of Jalisco.",
+		"HowToServe": "Your drink is served to you cold and straight in a small hot glass. You then season your tongue with citrus and salt, by squeezing a wedge of lime (lemon for whimps) and pouring salt on to the back of the hand and licking them up."
+    }, 
+    {
+        "age": 5, 
+        "id": "spirits-brandy", 
+        "imageUrl": "../img/spirits/remy_XO-100x100.jpg", 
+		"serveImageUrl": "../img/spirits/brandy-serve.jpg",
+        "name": "Brandy", 
+		"snippet": "Brandy is a spirit produced by distilling wine. Brandy generally contains 35 - 60% alcohol by volume and is typically taken as an after-dinner drink.",
+		"HowToServe": "The finest, oldest brandies should not be mixed. Younger products mix reasonably well with soda; the vogue for brandy-and-tonic being assiduously promoted in Congac, of all places, is not one that finds favor with the author. In the Far East, brandy is mixed with plenty of iced water and consumed in this denatured form with food."
+       
+    }, 
+    {
+        "age": 6, 
+        "id": "spirits-bitters", 
+        "imageUrl": "../img/spirits/campari_02.jpg", 
+		"serveImageUrl": "../img/spirits/Campari_Wine_11.jpg",
+        "name": "Bitters", 
+        "snippet": "Bitters refers to any of a number of spirits flavored with bitter herbs or roots, which are generally held to have medicinal properties. Example is Campari, which can be drunk in whole measures like any other spirit.",
+		"HowToServe": "Campari is classically served with soda water and a twist of lemon peel, but don't drown it."
+    }, 
+    {
+        "age": 7, 
+        "id": "spirits-Eau-de-vie", 
+        "imageUrl": "../img/spirits/eau_de_vie_photo.jpg", 
+		"serveImageUrl": "../img/spirits/eau_de_vie_photo.jpg",
+        "name": "Eau de vie", 
+        "snippet": "An eau de vie (plural, eaux de vie - also spelled eau-de-vie and eaux-de-vie) is a clear, colorless fruit brandy that is produced by means of fermentation and double distillation.",
+		"HowToServe": "Eaux de vie should be served extremely well chilled and neat. They blend well with neutral mixers such as soda, but anything flavored should be avoided because it will mask the attractiveness of the fruit aromas."
+    }, 
+    {
+        "age": 8, 
+        "id": "spirits-calvados", 
+        "imageUrl": "../img/spirits/calvados.jpg", 
+		"serveImageUrl": "../img/spirits/calvados_serve.jpg",
+        "name": "Calvados", 
+        "snippet": "In areas where win grapes could not be grown, other fruits were used in making distilled drinks. The most important as a source of alcohol, after grapes is apple.",
+		"HowToServe": "Younger calvados works surprisingly well with tonic, as long as you don't drown it. Varieties that have aged for longer, such as those labelled Hors d'Age, must be drunk unmixed."
+    }, 
+    {
+        "age": 9, 
+        "id": "spirits-kirsch", 
+        "imageUrl": "../img/spirits/kirsch_liqueur.1.jpg", 
+		"serveImageUrl": "../img/spirits/kirsch_serve.jpg",
+        "name": "Kirsch", 
+        "snippet": "Kirsch is the original cherry spirit. It is a colorless pure distillate made from cherries, and has traditionally been seen as a distinctive product from the other fruit eaux de vie.",
+		"HowToServe": "Lightly chilled in small glasses, kirsch makes a refreshing after-dinner tipple."
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "age": 0, 
+        "id": "Sherry", 
+        "imageUrl": "../img/fortifiedwines/sherry.jpg", 
+		"serveImageUrl": "../img/fortifiedwines/Sherry-Amour-1.jpg",
+        "name": "Sherry", 
+        "snippet": "Sherry is a fortified wine made from white grapes that are grown near the town of Jerez de la Frontera in Andalusia, Spain. Finos are brilliant aperitifs; old olorosos are best at the other end of the meal.",
+		"HowToServe": "Fino and manzarilla, and the sweetned pale sherries, should be served very well chilled, preferably from a fresh opened bottle."
+    }
+]

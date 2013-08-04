@@ -1,0 +1,21 @@
+[
+    {
+        "age": 0, 
+        "id": "champagne-Cristal", 
+        "imageUrl": "../img/champagne/cristal.jpg", 
+		"serveImageUrl": "../img/champagne/champagne_serve.jpg",
+        "name": "Cristal", 
+        "snippet": "Cristal is the brand name of a Champagne produced by Louis Roederer. Cristal has a flat-bottomed clear, \"crystal\" bottle, anti-UV cellophane wrapper, and gold label.",
+		"HowToServe": "Champagne should be served in tall, narrow glasses known as flutes to minimize dispersal of its fizz, as the bubbles hae a smaller surface area on which to break. Avoid the flat \"saucer\" glasses."
+    },
+
+	{
+        "age": 1, 
+        "id": "champagne-Chandon", 
+        "imageUrl": "../img/champagne/Chandon.jpg", 
+		"serveImageUrl": "../img/champagne/champagne_serve.jpg",
+        "name": "Moet & Chandon", 
+        "snippet": "Moet & Chandon, or Moet, is a French winery and co-owner of the luxury goods company Moet-Hennessy. Moet et Chandon is one of the world's largest champagne producers.",
+		"HowToServe": "Champagne should be served in tall, narrow glasses known as flutes to minimize dispersal of its fizz, as the bubbles hae a smaller surface area on which to break. Avoid the flat \"saucer\" glasses."
+    }
+]

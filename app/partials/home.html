@@ -1,0 +1,22 @@
+﻿ <div>
+    <article>
+        <h2><a href="#">The Party Begins Here</a></h2>
+		<p>This site offers, at first look, the histories and compositions of all the categories of alcoholic drinks: spirits, liqueurs, wine beer and cider.
+        We also look at what equipment is needed and what techniques should be learned in home bartending. Whether you are throwing a cocktail party, or whether
+        you just want to know how to make cocktails are good as - if not better than - those you have tasted in the cocktail bar, all the information you need
+        can be found right here.</p>
+		<p>Finally, getting down to business, this site provides several cocktail recipes, arranged by type, so that you can happily expand your repertoire. The drink
+        after work or on Saturday night no longer be ther same old bottle of beer, glass of wine. The drinking world is your oyster. Do it wisely and have fun.</p>
+	</article>
+ </div>
+ <div>
+ <h2><a href="#">&nbsp;</a></h2>
+ </div>
+ <div data-ng-controller="MyCarouselCtrl">
+    <carousel interval="myInterval">
+        <slide data-ng-repeat="slide in slides" active="slide.active">
+            <img data-ng-src="{{slide.image}}" style="margin:auto;">
+        </slide>
+    </carousel>
+ </div>
+ 

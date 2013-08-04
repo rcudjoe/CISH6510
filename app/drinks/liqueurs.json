@@ -1,0 +1,29 @@
+[
+    {
+        "age": 0, 
+        "id": "liqueurs-cointreau", 
+        "imageUrl": "../img/liqueurs/Cointreau.jpg", 
+		"serveImageUrl": "../img/liqueurs/633-Cointreau_Sidecar_368.jpg",
+        "name": "Cointreau", 
+        "snippet": "Cointreau is a brand of triple sec produced in Saint-Barthélemy-d'Anjou, France. It is drunk as an apéritif and digestif, and is a component of several well-known cocktails.",
+		"HowToServe": "Absolutely everyone's favorite way of serving Cointreau is either on the rocks with frappe, depending on whether you like your ice in chunks or crystals."
+    }, 
+    {
+        "age": 1, 
+        "id": "liqueurs-grand-marnier", 
+        "imageUrl": "../img/liqueurs/grand-marnier.jpg", 
+		"serveImageUrl": "../img/liqueurs/GrandMarnier-serve.jpg",
+        "name": "Grand Marnier", 
+        "snippet": "Grand Marnier Cordon Rouge is an orange-flavored brandy liqueur created in 1880 by Alexandre Marnier-Lapostolle. It is made from a blend of Cognac brandy, distilled essence of bitter orange, and sugar.",
+		"HowToServe": "Grand Marnier should be served with as much reverence as your best cognac would recieve."
+    }, 
+    {
+        "age": 2, 
+        "id": "liqueurs-malibu", 
+        "imageUrl": "../img/liqueurs/malibu.jpg", 
+		"serveImageUrl": "../img/liqueurs/malibu-serve.png",
+        "name": "Malibu", 
+        "snippet": "Malibu Rum is a flavored rum made with natural coconut extract, possessing an alcohol content by volume of 21.0%. Malibu is perhaps the best of the coconut liqueurs.",
+		"HowToServe": "These drinks are not great on their own, but make excellent mixes with ice and fruit juices, which is how they are originally intended to be served. Orange, grape fruit and pineapple are the best."
+    }
+]

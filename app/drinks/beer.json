@@ -1,0 +1,20 @@
+[
+    {
+        "age": 0, 
+        "id": "beer-Budweiser", 
+        "imageUrl": "../img/beer/bud.jpg", 
+		"serveImageUrl": "../img/beer/beer-serve.jpg",
+        "name": "Budweiser", 
+        "snippet": "Budweiser is a pale lager produced by Anheuse-Busch. Introduced in 1876 by Adolphus Busch it has grown to become one of the highest selling beers in the US, and is available in over 80 markets worldwide.",
+		"HowToServe": "Larger should be served well chilled as it is primarily about refreshment rather than the connoisseurial flavor appreciation. It should be pourse fairly quickly into a tall, tilted glass, which should then be righted once it is three-quarters full, so that the last complement of beer forms a luxuriant, feather-light, frothy head. Drink the first beer through the head rather than waiting for it to subside."
+    },
+	{
+        "age": 1, 
+        "id": "beer-Corona", 
+        "imageUrl": "../img/beer/corona-beer-greedy-small-67466.jpg", 
+		"serveImageUrl": "../img/beer/beer-serve.jpg",
+        "name": "Corona", 
+        "snippet": "It is one of the top-selling beers worldwide. Outside of Mexico, Corona is commonly served with a wedge of lime or lemon in the neck of the bottle to add tartness and flavor.",
+		"HowToServe": "Larger should be served well chilled as it is primarily about refreshment rather than the connoisseurial flavor appreciation. It should be pourse fairly quickly into a tall, tilted glass, which should then be righted once it is three-quarters full, so that the last complement of beer forms a luxuriant, feather-light, frothy head. Drink the first beer through the head rather than waiting for it to subside."
+    }
+]

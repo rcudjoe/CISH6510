@@ -1,0 +1,45 @@
+[
+    {
+        "age": 0, 
+        "id": "gin-gin-fizz", 
+        "imageUrl": "../img/makingdrinks/FNK_Ramos-Gin-Fizz_s4x3.jpg", 
+		"name": "Gin Fizz", 
+        "snippet": "The combination of sourness and fizziness in this 19th-century recipe  is what makes it refreshing. Shake the gin, lemon juice and sugar with ice until the sugar is properly dissolved. Pour out into a frosted, tall, narrow glass half-filled with ice, and top up with soda. Add two straws. There should ideally be a little less soda than the other combination ingredients, but it is very much a matter of personal tast.",
+		"measurement": [" 2 measures/3 tbsp gin juice of half a large lemon.", "5ml/1 tsp caster (superfine) sugar.", "Soda water."]
+		
+    }, 
+    {
+        "age": 1, 
+        "id": "gin-gin-swizzle", 
+        "imageUrl": "../img/makingdrinks/Michael_Mas_-_Experimental_Gin_Swizzle.jpg", 
+		"name": "Gin Swizzle", 
+        "snippet": "The swizzle dates from the early 19th century, and was originally a drink made frothy purely by energetic stirring. The implement used for this, the swizzle-stick, took it's name from the drink. Beat all the ingredients togther (as if you were preparing eggs for an omelette) in a large jug, with ice. When the drink is good and foaming, strain it into a tall glass, but remember to stir it up vigrously with a swizzle-stick.",
+		"measurement": ["2 measures/3 tbsp gin.", "1/4 measure/1 tsp sugar syrup.", "Juice of a lime.", "2 dashes Angostura bitters."]
+		
+    }, 
+    {
+        "age": 2, 
+        "id": "gin-gin-sling", 
+        "imageUrl": "../img/makingdrinks/parsley-gin-julep-fw0411-xl.jpg", 
+		"name": "Gin Sling", 
+        "snippet": "Mix the gin, lemon juice, sugar and Angostura in a tumber with plenty of ice until the sugar is fully dissolved. Top up the glass with cold water straight from the refrigerator. Add a twist of lemon rind and straws.",
+		"measurement": ["2 measures/3 tbsp gin.", "Juice of half lemon.", "5ml/1 tsp sugar.", "Dash of Angostura bitters.", "Still mineral water."]
+    }, 
+    {
+        "age": 3, 
+        "id": "gin-my-fair-lady", 
+        "imageUrl": "../img/makingdrinks/fairlady-205x300.jpg", 
+		"name": "My Fair Lady", 
+        "snippet": "This frothy, fruity coctail was invented at London's Savoy Hotel in the 1950s to coincide with a production of the much-loved Lerner and Loewe musical based on George Bernard Shaw's play Pygmalion. Shake all the ingredients thorougly with ice, and strain into a cocktail glass.",
+		"measurement": ["1 measure/1 1/2 tbsp gin.", "1/2 measure/2 tsp orange juice.", "1/2 measure/2 tsp lemon juice.", "1/4 measure/1 ts creme de fraise.", "1 egg white."]
+    }, 
+    {
+        "age": 4, 
+        "id": "gin-bitter-gimlet", 
+        "imageUrl": "../img/makingdrinks/Gimlet.jpg", 
+		"name": "Bitter Gimlet", 
+        "snippet": "Put the lime into a pitcher and, using a muddler, press the juice out of it. Add the cracked ice, gin and bitters and stir well until chilled. Strain the cocktail into a short tumbler over ice cubes. Add a triangle of lime rind to the drink.",
+		"measurement": ["1 lime, cut into wedges.", "1 measure/1 1/2 tbsp gin.", "2 dashes Angostura bitters."]
+
+    }
+]

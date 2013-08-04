@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html >
+
+<html lang="en" data-ng-app="app">
+<head title="Ultimate Cocktails">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.js"></script>
+    <script type="text/javascript" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.4.0.js"></script>
+     <script type="text/javascript" src="../app.js"></script>
+    <script type="text/javascript" src="../js/controllers/RouteController.js"></script>
+     <script type="text/javascript" src="../js/controllers/CocktailsController.js"></script>
+     <script type="text/javascript" src="../js/controllers/NavBar.js"></script>
+      <script type="text/javascript" src="../js/controllers/dataControllers.js"></script>
+      <script type="text/javascript" src="../js/controllers/ModalControllers.js"></script>
+      <script type="text/javascript" src="../js/services/services.js"></script>
+     
+     <script type="text/javascript" src="../js/controllers/MenuContents.js"></script>
+     <script type="text/javascript" src="../lib/angular-resource.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/app.css" type="text/css" media="screen" />
+    
+     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->  
+    
+</head>
+<body >
+
+     <div id="wrapper"><!-- #wrapper -->
+
+	<nav><!-- top nav -->
+		<div class="menu">
+				<ul data-ng-controller="TopMenuCtrl">
+						<li data-ng-repeat="TopMenu in TopMenu"><a href="#/{{TopMenu.url}}">{{TopMenu.name}}</a></li>
+				</ul>	
+		</div>
+	</nav><!-- end of top nav -->
+	
+        <header><h1><a href="#">Ultimate Cocktails</a></h1>	</header>
+      
+    <section id="main"><!-- #main content and sidebar area -->
+			<section id="content"><!-- #content -->
+			
+        		<!-- put ng-view here -->
+					<div data-ng-view > </div> 
+               
+       
+			</section><!-- end of #content -->
+
+		<aside id="sidebar"><!-- sidebar -->
+				<div data-ng-controller="TypesofDrinksCtrl">
+                  
+                  <accordion close-others="oneAtATime">
+                    <accordion-group heading="Types of Drinks">
+                           <div data-ng-repeat="Drinks in Drinks | orderBy:orderProp"><a href="#/{{Drinks.url}}">{{Drinks.name}}</a></div>
+                    </accordion-group>
+                    <br /><br />
+                     <accordion-group heading="Making Drinks">
+                           <div data-ng-repeat="MakingDrinks in MakingDrinks | orderBy:orderProp""><a href="#/{{MakingDrinks.url}}">{{MakingDrinks.name}}</a></div>
+                    </accordion-group>
+                    <br /><br />
+                     <accordion-group heading="Bartending Skills">
+                           <div data-ng-repeat="Bartending in Bartending | orderBy:orderProp""><a href="#/{{Bartending.url}}">{{Bartending.name}}</a></div>
+                    </accordion-group>
+                    <br /><br />
+                    <accordion-group heading="Connect With Us">
+                           <div data-ng-repeat="ConnectWithUs in ConnectWithUs | orderBy:orderProp""><a href="#/{{ConnectWithUs.url}}">{{ConnectWithUs.name}}</a></div>
+                    </accordion-group>
+                  </accordion>
+                </div>
+               
+		</aside><!-- end of sidebar -->
+
+	</section><!-- end of #main content and sidebar-->
+	
+		<footer>
+		<section id="footer-area">
+
+			<section id="footer-outer-block">
+					<aside class="footer-segment">
+							<h4>Language Options</h4>
+								<ul>
+									<li><a href="#">Spanish Version</a></li>
+								</ul>
+					</aside><!-- end of #first footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Other Links</h4>
+								<ul>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+					</aside><!-- end of #second footer segment -->
+					
+				</section><!-- end of footer-outer-block -->
+
+		</section><!-- end of footer-area -->
+	</footer>
+	
+</div><!-- #wrapper -->
+</body>
+
+</html>

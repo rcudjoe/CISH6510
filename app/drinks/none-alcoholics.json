@@ -1,0 +1,29 @@
+[
+    {
+        "age": 0, 
+        "id": "none-alcoholics-water", 
+        "imageUrl": "../img/nonalcoholics/bottled-water.jpg", 
+		"serveImageUrl": "../img/nonalcoholics/water-serve.jpg",
+        "name": "Water", 
+        "snippet": "Water is the most abundant compound on Earth's surface, covering about 70 percent of the planet. In nature, water exists in liquid, solid, and gaseous states.",
+		"HowToServe": "Just drink as much as you can every day - room temperature or chilled based on preference."
+    }, 
+    {
+        "age": 1, 
+        "id": "none-alcoholics-orange-juice", 
+        "imageUrl": "../img/nonalcoholics/juice.jpg", 
+		"serveImageUrl": "../img/nonalcoholics/orange-juice.jpg",
+        "name": "Orange Juice", 
+        "snippet": "Juice is a liquid that is naturally contained in fruit and vegetables. It can also refer to liquids that are flavored with these or other biological food sources such as meat and seafood.",
+		"HowToServe": "When drinking orange juice on its own, leave a little of the pulp to ensure a texturally interesting result. When mixing, it is better to strain the pulp out. Always drink fresh juice at once; don't keep it."
+    },
+    {
+        "age": 2, 
+        "id": "none-alcoholics-ginger-beer", 
+        "imageUrl": "../img/nonalcoholics/ginger-beer.jpg", 
+		"serveImageUrl": "../img/nonalcoholics/ginger-beer-serve.jpg",
+        "name": "Ginger Beer", 
+        "snippet": "Ginger beer is a carbonated drink flavored primarily with ginger and sweetened with sugar or artificial sweetener. Ginger is good for aiding digestation, among a wide range of other medicinal applications.",
+		"HowToServe": "Ginger beer should be served on baking-hot summer days as an ice-cold drink in a tall glass. Some of the better brands will contain a little sediment, which is all to the good."
+    }
+]

@@ -1,0 +1,92 @@
+﻿  <div class="row-fluid">
+       <div data-ng-controller="ModalCtrl">
+                    <button class="btn" ng-click="open()">Add New Item</button>
+                <div modal="shouldBeOpen" close="close()" options="opts">
+                    <div class="modal-header">
+                        <h3>Add New Item</h3>
+                    </div>
+                    <div class="modal-body">
+                             <div >
+                                <label>Name:</label>
+                                <input type="text" ng-model="beer.name"/>
+
+                                <label>Image Url:</label>
+                                <input type="text" ng-model="beer.imageUrl"/>
+
+                                <label>Serve Image Url:</label>
+                                <input type="text" ng-model="beer.serveImageUrl"/>
+
+                                <label>Snippet:</label>
+                                <textarea ng-model="beer.snippet" cols="3" rows="3"></textarea>
+                                
+                                 <label>How To Serve:</label>
+                                 <textarea ng-model="beer.HowToServe" cols="3" rows="3"></textarea>
+                                 
+                                 <p>
+                                <button class="save" data-ng-click="saveWine()">Save</button>
+                                </p>
+                            </div> 
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning cancel" data-ng-click="close()">Close</button>
+                    </div>
+                </div>
+            </div>
+
+  <div class="fm-panel fm-display-list">
+    <h4>
+      <ng-pluralize count="liqueurs.length"
+                    when="{'0'    : 'No liqueurs found. :-(',
+                           'one'  : '1 liqueur found!',
+                           'other': '{} liqueurs found!'}">
+      </ng-pluralize>
+     
+    </h4>
+    
+    <table class="table table-hover table-striped">
+      <tr>
+        <td>Search: <input data-ng-model="query" ></td>
+        <td>Sort by:
+      <select data-ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select></td>
+      </tr>
+      <tr data-ng-repeat="liqueurs in liqueurs | filter:query | orderBy:orderProp">
+        <td colspan="2">
+         
+            <img class="img-rounded pull-left" data-ng-src="{{liqueurs.imageUrl}}">
+            <b id="mdheader">{{liqueurs.name}}</b>
+         
+          <p>{{liqueurs.snippet}}</p>
+              <div data-ng-controller="ModalCtrl">
+                    <button class="btn" ng-click="open()">How to Serve!</button>
+                <div modal="shouldBeOpen" close="close()" options="opts">
+                    <div class="modal-header">
+                        <h3>HOW TO SERVE</h3>
+                    </div>
+                    <div class="modal-body">
+                            <section id="modal-main"><!-- #main content and sidebar area -->
+			                        <section id="modal-content"><!-- #content -->
+			                             {{liqueurs.HowToServe}} 
+        	                                
+			                        </section><!-- end of #content -->
+
+		                            <aside id="modal-sidebar"><!-- sidebar -->
+				
+                                        <img id="modal-img" data-ng-src="{{liqueurs.serveImageUrl}}">
+		                            </aside><!-- end of sidebar -->
+
+	                        </section><!-- end of #main content and sidebar-->
+                                              
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning cancel" data-ng-click="close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+[
+    {
+        "age": 0, 
+        "id": "cider-Magners", 
+        "imageUrl": "../img/cider/magners.jpg", 
+		"serveImageUrl": "../img/cider/magners-serve.jpg",
+        "name": "Magners Cider", 
+        "snippet": "Magners, branded as Bulmers in Ireland, is a brand of cider produced in County Tipperary, in Ireland, by the C&C Group. Cider or cyder is a fermented alcoholic beverage made from fruit juice.",
+		"HowToServe": "Cider should be served well-chilled in tall glasses, or else in earthenware cups traditional in northern France."
+    },
+	{
+        "age": 1, 
+        "id": "cider-Strongbow", 
+        "imageUrl": "../img/cider/SB.jpg", 
+		"serveImageUrl": "../img/cider/strongbow-gold.png",
+        "name": "Cider Strongbow", 
+        "snippet": "Cider or cyder is a fermented alcoholic beverage made from fruit juice, most commonly and traditionally apple juice, but also the juice of peaches, pears or other fruit.",
+		"HowToServe": "Cider should be served well-chilled in tall glasses, or else in earthenware cups traditional in northern France."
+    }
+]
