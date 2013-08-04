@@ -16,3 +16,5 @@ Application Features:
 4.	Provide functionality to add new types of drinks and cocktail recipes.
 5.	Provide search functionality.
 6.	Provide sort functionality.
+
+The applicaiton is still in progress. All partial pages and functionalities are not yet available.
