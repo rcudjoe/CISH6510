@@ -8,6 +8,8 @@ For each category of items displayed, the user can search specific type of drink
 There is a section for users to connect with each other and application owners via email, Facebook, Flickr or Twitter.
 
 Application Features:
+
+
 1.  Provide a list of types of alcoholic and non-alcoholic drinks with brief descriptions and preferred way to serve it.
 2.	Provide a list of cocktail recipes segmented by drink type.
 3.	Provide a list of bartending techniques.
